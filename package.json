@@ -19,7 +19,10 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "braces": "^3.0.2",
+    "js-yaml": "^3.13.1"
+  },
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^16.0.0",
