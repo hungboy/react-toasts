@@ -19,10 +19,6 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {
-    "braces": "^3.0.2",
-    "js-yaml": "^3.13.1"
-  },
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^16.0.0",
@@ -38,6 +34,8 @@
     "babel-runtime": "^6.26.0",
     "cross-env": "^5.1.4",
     "gh-pages": "^1.2.0",
+    "braces": "^3.0.2",
+    "js-yaml": "^3.13.1",
     "node-sass": "^4.13.1",
     "rollup": "^0.62.0",
     "rollup-plugin-babel": "^3.0.7",
