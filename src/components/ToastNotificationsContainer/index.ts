@@ -1,0 +1,1 @@
+export { ToastNotificationsContainer } from './component';
